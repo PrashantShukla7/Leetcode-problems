@@ -1,0 +1,23 @@
+Problem :- Single Number
+Problem no :- 136
+
+Approaches:- 
+- Using Nested loop TC-> O(n^2)
+- Using sorting   TC->O(n.log(n))
+- Using bitwise operator. 
+
+Code: 
+
+`class Solution {
+public:
+    int singleNumber(vector<int>& nums) {
+      
+    int ans = 0;
+    for(int i=0; i<nums.size(); i++){
+        ans = ans^nums[i];
+    }
+    return ans;
+		
+     return 0;   
+    }
+};`
