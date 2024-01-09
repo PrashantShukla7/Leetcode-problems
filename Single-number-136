@@ -8,7 +8,7 @@ Approaches:-
 
 Code: 
 
-`class Solution {
+class Solution {
 public:
     int singleNumber(vector<int>& nums) {
       
@@ -20,4 +20,4 @@ public:
 		
      return 0;   
     }
-};`
+};
